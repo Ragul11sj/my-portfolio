@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ragul SJ - Full Stack Developer & UI/UX Designer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-spinner"></div>
+            <div class="loading-text">Loading Portfolio...</div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="logo-text">Ragul SJ</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#competencies" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button id="menu-btn" class="menu-btn">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </button>
+        </nav>
+        <div id="mobile-menu" class="mobile-menu">
+            <ul class="mobile-nav-list">
+                <li><a href="#home" class="mobile-nav-link">Home</a></li>
+                <li><a href="#about" class="mobile-nav-link">About</a></li>
+                <li><a href="#achievements" class="mobile-nav-link">Achievements</a></li>
+                <li><a href="#competencies" class="mobile-nav-link">Skills</a></li>
+                <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+                <li><a href="#experience" class="mobile-nav-link">Experience</a></li>
+                <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="hero-greeting">Hello, I'm</span>
+                    <span class="hero-name">Ragul SJ</span>
+                    <span class="hero-role">Full Stack Developer</span>
+                </h1>
+                <p class="hero-description">
+                    Passionate about creating responsive, user-friendly, and scalable digital solutions
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <h2 class="section-title"><span class="title-gradient">About Me</span></h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="my photo.png"Ragul SJ" class="profile-image">
+                    <div class="image-overlay"></div>
+                </div>
+                <div class="about-text">
+                    <p class="about-description">
+                        Aspiring Full Stack Developer and UI/UX Designer with hands-on experience in web and mobile design. 
+                        Skilled in HTML, CSS, JavaScript, React, Node.js, Python, and Figma. Completed a certified UI/UX project 
+                        on a travel booking app via Coursera. Passionate about creating responsive, user-friendly, and scalable digital solutions.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">6+</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">2+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Certifications</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section">
+        <div class="container">
+            <h2 class="section-title"><span class="title-gradient">Key Achievements</span></h2>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Web Platforms</h3>
+                    <p>Developed 3 web-based platforms using HTML, CSS, JavaScript, and backend tools to support job seekers and learners.</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3>Resume Maker</h3>
+                    <p>Built a Resume Maker with downloadable formats and a user-friendly interface.</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-question-circle"></i>
+                    </div>
+                    <h3>Interview Prep</h3>
+                    <p>Created an Interview Prep Website offering categorized questions for unemployed users.</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Aptitude System</h3>
+                    <p>Implemented a Company-wise Aptitude Test system with real-time quizzes and performance tracking.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Competencies Section -->
+    <section id="competencies" class="section competencies-section">
+        <div class="container">
+            <h2 class="section-title"><span class="title-gradient">Key Competencies</span></h2>
+            <div class="competencies-grid">
+                <div class="competency-card">
+                    <div class="competency-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Front-end Development</h3>
+                    <ul>
+                        <li>HTML5, CSS3, JavaScript (ES6+)</li>
+                        <li>React, Angular</li>
+                        <li>Tailwind CSS, Responsive Design</li>
+                    </ul>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90%"></div>
+                    </div>
+                </div>
+                <div class="competency-card">
+                    <div class="competency-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Back-end & Database</h3>
+                    <ul>
+                        <li>Node.js, Python</li>
+                        <li>MongoDB, MySQL</li>
+                        <li>Firebase</li>
+                    </ul>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85%"></div>
+                    </div>
+                </div>
+                <div class="competency-card">
+                    <div class="competency-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>UI/UX & Design Tools</h3>
+                    <ul>
+                        <li>Figma, Sketch</li>
+                        <li>UI Prototyping & Wireframing</li>
+                        <li>User-Centered Design</li>
+                    </ul>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="88%"></div>
+                    </div>
+                </div>
+                <div class="competency-card">
+                    <div class="competency-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Development Tools</h3>
+                    <ul>
+                        <li>Git, GitHub</li>
+                        <li>VS Code</li>
+                        <li>AWS (Cloud Foundations)</li>
+                    </ul>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title"><span class="title-gradient">My Projects</span></h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="nike.png" alt="Nike Shoes UI">
+                        <div class="project-overlay">
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Nike Shoes – UI/UX Design</h3>
+                        <p>A modern, responsive UI for a Nike Shoes e-commerce interface built entirely in Figma. Features a sleek product showcase, 'Add to Bag' CTA, and promotional banners.</p>
+                        <div class="project-tags">
+                            <span class="tag">Figma</span>
+                            <span class="tag">UI/UX</span>
+                            <span class="tag">E-commerce</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="ninja.png" alt="Sport Bike UI">
+                        <div class="project-overlay">
+                            
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Sport Bike Website UI</h3>
+                        <p>A high-performance digital experience for bike lovers, with a mobile-first approach, interactive prototyping, and a hero section with a bike showcase.</p>
+                        <div class="project-tags">
+                            <span class="tag">Figma</span>
+                            <span class="tag">Mobile-First</span>
+                            <span class="tag">Interactive</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="pringles.png" alt="Pringles UI">
+                        <div class="project-overlay">
+                            
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Pringles Flavor UI Design</h3>
+                        <p>An interactive product experience for Pringles, visualizing three iconic flavors through unique color-coded packaging and smooth, animated transitions.</p>
+                        <div class="project-tags">
+                            <span class="tag">Animation</span>
+                            <span class="tag">Interactive</span>
+                            <span class="tag">Product Design</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="resume.png" alt="Resume Maker">
+                        <div class="project-overlay">
+                            
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Resume Maker Web App</h3>
+                        <p>Developed a responsive web application that helps users create professional resumes using customizable templates. Included export/download functionality.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML/CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Web App</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="interview.png" alt="Interview Portal">
+                        <div class="project-overlay">
+                            
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Interview Question Portal</h3>
+                        <p>Built an accessible website that provides categorized interview questions and answers, aiming to support job seekers in preparing effectively for interviews.</p>
+                        <div class="project-tags">
+                            <span class="tag">Frontend</span>
+                            <span class="tag">Education</span>
+                            <span class="tag">Responsive</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="aptitude.png" alt="Aptitude Platform">
+                        <div class="project-overlay">
+                            
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Aptitude Test Platform</h3>
+                        <p>Created a platform offering aptitude tests categorized by company. Features include test interface, performance tracking, and company-specific question banks.</p>
+                        <div class="project-tags">
+                            <span class="tag">Full Stack</span>
+                            <span class="tag">Testing</span>
+                            <span class="tag">Analytics</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section experience-section">
+        <div class="container">
+            <h2 class="section-title"><span class="title-gradient">Experience</span></h2>
+            <div class="experience-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="experience-card">
+                            <h3>UI/UX and Artificial Intelligence Intern</h3>
+                            <div class="experience-meta">
+                                <span class="company">Tech Company</span>
+                                <span class="duration">2024 - Present</span>
+                            </div>
+                            <ul class="experience-details">
+                                <li>Ensured mobile responsiveness, smooth UI/UX, and accessibility across all platforms</li>
+                                <li>Added features like authentication, test evaluation, and resource downloads for better engagement</li>
+                                <li>Collaborated with AI teams to implement intelligent user interface solutions</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="experience-card">
+                            <h3>Development Intern</h3>
+                            <div class="experience-meta">
+                                <span class="company">Community Organization</span>
+                                <span class="duration">2023 - 2024</span>
+                            </div>
+                            <ul class="experience-details">
+                                <li>Contributed to community-driven initiatives focused on youth empowerment and skill development</li>
+                                <li>Collaborated with global teams on various projects and learning programs</li>
+                                <li>Developed web solutions for community engagement and outreach</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title"><span class="title-gradient">Education</span></h2>
+            <div class="education-content">
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-details">
+                        <h3>Bachelor of Technology in Information Technology</h3>
+                        <p class="education-meta">Current</p>
+                        <p class="education-description">Focused on software development, database management, and modern web technologies.</p>
+                    </div>
+                </div>
+                
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="education-details">
+                        <h3>E.S. Matric Higher Secondary School</h3>
+                        <p class="education-meta">Completed</p>
+                        <p class="education-description">Strong foundation in mathematics, science, and computer applications.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section certifications-section">
+        <div class="container">
+            <h2 class="section-title"><span class="title-gradient">Courses & Certifications</span></h2>
+            <div class="certifications-grid">
+                <div class="certification-category">
+                    <h3 class="category-title">Design & UX</h3>
+                    <div class="certification-list">
+                        <div class="certification-item">
+                            <div class="cert-icon">
+                                <i class="fas fa-paint-brush"></i>
+                            </div>
+                            <div class="cert-details">
+                                <h4>Foundations of User Experience (UX) Design</h4>
+                                <p>Google via Coursera (Jul 20, 2025)</p>
+                            </div>
+                        </div>
+                        <div class="certification-item">
+                            <div class="cert-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <div class="cert-details">
+                                <h4>UI/UX Design with Sketch: Travel Booking App</h4>
+                                <p>Coursera (Jul 2025)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certification-category">
+                    <h3 class="category-title">Data & Analytics</h3>
+                    <div class="certification-list">
+                        <div class="certification-item">
+                            <div class="cert-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div class="cert-details">
+                                <h4>Data Visualization with Python</h4>
+                                <p>IBM via CognitiveClass.ai (Mar 17, 2025)</p>
+                            </div>
+                        </div>
+                        <div class="certification-item">
+                            <div class="cert-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="cert-details">
+                                <h4>Career Essentials in Data Analysis</h4>
+                                <p>Microsoft & LinkedIn (Dec 2024)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certification-category">
+                    <h3 class="category-title">Cloud & Infrastructure</h3>
+                    <div class="certification-list">
+                        <div class="certification-item">
+                            <div class="cert-icon">
+                                <i class="fab fa-aws"></i>
+                            </div>
+                            <div class="cert-details">
+                                <h4>AWS Academy Graduate - Cloud Foundations</h4>
+                                <p>Amazon Web Services (Aug 2024)</p>
+                            </div>
+                        </div>
+                        <div class="certification-item">
+                            <div class="cert-icon">
+                                <i class="fas fa-network-wired"></i>
+                            </div>
+                            <div class="cert-details">
+                                <h4>CCNA: Switching, Routing, and Wireless Essentials</h4>
+                                <p>Cisco (Jun 2025)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certification-category">
+                    <h3 class="category-title">Automation & RPA</h3>
+                    <div class="certification-list">
+                        <div class="certification-item">
+                            <div class="cert-icon">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <div class="cert-details">
+                                <h4>UiPath Automation Explorer</h4>
+                                <p>UiPath Academy (Multiple Certifications)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title"><span class="title-gradient">Contact Me</span></h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p><a href="tel:+919442471555">+91 9442471555</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p><a href="mailto:sjragul555@gmail.com">sjragul555@gmail.com</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Villupuram, Tamil Nadu - 605103</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form form">
+                    <div class="form-group">
+                        <input type="text" name="name" class="form-input" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" class="form-input" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="subject" class="form-input" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" class="form-input form-textarea" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="form-submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Ragul SJ. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
